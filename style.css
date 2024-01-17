@@ -18,11 +18,10 @@ p {
 
 button {
   display: block;
-  margin: 0 auto;
   padding: 10px 15px;
   font-size: 10px;
   color: black;
-  background: whitesmoke;
+  background: rgb(245, 245, 220);
   border: 1px solid black;
   border-radius: 25px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);

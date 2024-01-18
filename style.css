@@ -1,6 +1,5 @@
 body {
   background-color: rgb(245, 245, 220);
-  border: 2px solid black;
 }
 
 h1,
@@ -9,9 +8,9 @@ h2 {
 }
 
 .main-image {
+  margin-left: 10px;
   width: 250px;
-  height: 200px;
-  border: 1px solid black;
+  height: 230px;
 }
 
 p {

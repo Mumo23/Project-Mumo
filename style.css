@@ -1,26 +1,25 @@
 body {
-  background-color: rgb(245, 245, 220);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 246, 236) 39.5%,
+    rgba(100, 46, 122, 0.23) 100.2%
+  );
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Merriweather", serif;
 }
 
 .main-image {
-  margin-left: 10px;
-  width: 270px;
-  height: 270px;
+  width: 300px;
+  height: 300px;
 }
 
 p {
   line-height: 1.5;
   font-family: "Merriweather", serif;
-}
-
-.designed-by {
-  margin-top: 30px;
-  color: rgba(0, 0, 0, 0.2);
 }
 
 button {

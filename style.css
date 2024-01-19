@@ -9,7 +9,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Merriweather", serif;
+  font-family: "Playfair Display", serif;
 }
 
 .main-image {
@@ -17,9 +17,9 @@ h3 {
   height: 300px;
 }
 
-p {
-  line-height: 1.5;
-  font-family: "Merriweather", serif;
+.paragraph {
+  line-height: 1.8;
+  font-family: "Poppins", sans-serif;
 }
 
 button {

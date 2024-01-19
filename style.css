@@ -35,9 +35,12 @@ h1 {
 }
 
 .design {
+  font-family: "Playfair Display", serif;
+  font-weight: 20px;
   text-align: center;
   color: rgb(168, 164, 164);
 }
+
 p {
   font-family: "Cormorant Garamond", serif;
 }
@@ -47,7 +50,11 @@ button {
   padding: 10px 15px;
   font-size: 10px;
   color: black;
-  background: rgb(245, 245, 220);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 246, 236) 39.5%,
+    rgba(100, 46, 122, 0.23) 100.2%
+  );
   border: 1px solid black;
   border-radius: 25px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);

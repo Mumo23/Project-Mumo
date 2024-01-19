@@ -17,14 +17,18 @@ h1 {
   text-align: center;
 }
 
+img {
+  border: 1px solid #000000;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 .main-image {
   width: 400px;
   height: 400px;
 }
 
-.paragraph {
-  line-height: 1.8;
-  font-family: "Poppins", sans-serif;
+p {
+  font-family: "Cormorant Garamond", serif;
 }
 
 button {
@@ -35,7 +39,7 @@ button {
   background: rgb(245, 245, 220);
   border: 1px solid black;
   border-radius: 25px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 button a {
   color: black;

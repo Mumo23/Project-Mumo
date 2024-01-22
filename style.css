@@ -6,6 +6,10 @@ body {
   );
 }
 
+.navigation {
+  font-family: "Playfair Display", serif;
+}
+
 h1,
 h2,
 h3 {

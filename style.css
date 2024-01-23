@@ -49,6 +49,10 @@ h1 {
   color: black;
 }
 
+.navbar {
+  display: inline-flex;
+}
+
 p {
   font-family: "Cormorant Garamond", serif;
 }

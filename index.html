@@ -15,64 +15,88 @@
       crossorigin="anonymous"
     ></script>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
     <title>Mumo Mailu</title>
   </head>
   <body>
-      <div class="container">
-        <div class="navigation">
-          <nav class="d-flex justify-content-between">
-        <a class="nav-link active m-5" href="index.html"> <strong>Home</strong></a>
-        <a class="nav-link m-5" href="about.html"> <strong>About</strong></a>
-        <a class="nav-link m-5" href="work.html"><strong>Portfolio</strong></a>
-        <a class="nav-link m-5" href="contacts.html"><strong>Contacts</strong></a>
-      </nav>
+  <nav class="navbar navbar-expand-lg m-5">
+  <div class="container-fluid">
+    <img src="images/logo.png" alt="Logo" width="40" height="34" class="d-inline-block align-text-top">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="work.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacts.html">Contacts</a>
+        </li>   
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <img src="images/black.jpg" alt="main-image" class="main-image" /> 
+        </div>
+        <div class="col-md-6">
+          <h1>
+            Mumo Mailu
+            <br />
+            Front-end Developer Based in Nairobi, Kenya
+          </h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="mt-5 col-md-4 p-3">
+          <button class="p-3">
+            <a href="about.html">About</a>
+          </button>
+        </div>
+        <div class="mt-5 col-md-4 p-3">
+          <button class="p-3">
+            <a href="work.html">Portfolio</a>
+          </button>
+        </div>
+        <div class="mt-5 col-md-4 p-3">
+          <button class="p-3">
+            <a href="contacts.html"> Contacts</a>
+          </button>
+        </div>
       </div>
     </div>
 
-    <div class="d-flex justify-content-evenly">
-      <div>
-      <img src="images/black.jpg" alt="main-image" class="main-image"/>
-    </div>
-    <h1><strong>
-      Mumo Mailu
-      <br>
-      Front-end Developer Based in Nairobi, Kenya
-      </strong>
-    </h1>
-    </div>
-
-    <p>
-    <div class="d-flex justify-content-evenly">
-      <button class="p-3">
-        <a href="about.html">About</a>
-      </button>
-      <button class="p-3">
-        <a href="work.html">Portfolio</a>
-      </button>
-      <button class="p-3">
-        <a href="contacts.html"> Contacts</a>
-      </button>
-    </div>
-    </p>
-
   </br>
-  <div class="design">
-      Designed & Coded by
-       <a href="https://www.instagram.com/mumo_mailu/" class="third">
-           Mumo Mailu
-          </a>
-          and is 
-          <a href="https://github.com/Mumo23/Project-Mumo" class="third">
-           open-sourced
-          </a> 
-          and hosted on
-          <a href="https://luxury-syrniki-5d58da.netlify.app/" class="third">
-           Netlify
-          </a>
-    </div>
 
+    <div class="design">
+      Designed & Coded by
+      <a href="https://www.instagram.com/mumo_mailu/" class="third">
+        Mumo Mailu
+      </a>
+      and is
+      <a href="https://github.com/Mumo23/Project-Mumo" class="third">
+        open-sourced
+      </a>
+      and hosted on
+      <a href="https://luxury-syrniki-5d58da.netlify.app/" class="third">
+        Netlify
+      </a>
+    </div>
   </body>
 </html>

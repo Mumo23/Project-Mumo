@@ -28,7 +28,7 @@ h1 {
   width: 400px;
   height: 400px;
   margin-top: 20px;
-  opacity: 20px;
+  opacity: 50px;
 }
 
 .logo-image {
@@ -89,7 +89,8 @@ button a {
   font-family: "Playfair Display", serif;
 }
 
-.weather-paragraph {
+.weather {
   padding: 5px;
   border: 2px black;
+  font-family: "Playfair Display", serif;
 }

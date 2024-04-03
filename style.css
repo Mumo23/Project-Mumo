@@ -79,18 +79,15 @@ button a {
   color: black;
 }
 
-#weather-link {
-  color: black;
-  font-family: "Playfair Display", serif;
-}
-
+#weather-link,
 #kompa-link {
   color: black;
   font-family: "Playfair Display", serif;
 }
 
-.weather {
-  padding: 5px;
-  border: 2px black;
+.weather,
+.kompa,
+.classic,
+.react {
   font-family: "Playfair Display", serif;
 }

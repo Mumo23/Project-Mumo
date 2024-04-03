@@ -16,6 +16,7 @@ h1 {
   margin-top: 80px;
   text-align: center;
   line-height: 1.8;
+  font-weight: 400;
 }
 
 .main-image {
@@ -38,7 +39,7 @@ h1 {
   font-weight: 20px;
   text-align: center;
   color: rgb(168, 164, 164);
-  margin-top: 7px;
+  margin-top: 15px;
 }
 .nav-item {
   margin-left: 200px;

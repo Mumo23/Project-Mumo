@@ -88,3 +88,8 @@ button a {
   color: black;
   font-family: "Playfair Display", serif;
 }
+
+.weather-paragraph {
+  padding: 5px;
+  border: 2px black;
+}

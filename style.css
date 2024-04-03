@@ -25,6 +25,7 @@ h1 {
   width: 400px;
   height: 400px;
   margin-top: 20px;
+  opacity: 20px;
 }
 
 .logo-image {
@@ -58,11 +59,7 @@ button {
   padding: 10px 15px;
   font-size: 10px;
   color: black;
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(255, 246, 236) 39.5%,
-    rgba(100, 46, 122, 0.23) 100.2%
-  );
+  background: whitesmoke
   border: 1px solid black;
   border-radius: 15px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);

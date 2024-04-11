@@ -63,6 +63,8 @@ h1 {
 p {
   margin-top: 120px;
   font-family: "Cormorant Garamond", serif;
+  line-height: 2px;
+  text-align: justify;
 }
 
 button {

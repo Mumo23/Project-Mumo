@@ -39,6 +39,11 @@ h1 {
   margin-left: 120px;
 }
 
+.work {
+  text-align: center;
+  margin-top: 10px;
+}
+
 .logo-image {
   border: 2px solid #000000;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
